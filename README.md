@@ -9,7 +9,7 @@
 3. 點 **New session（新對話）**。
 4. 把下面這段話貼進對話框，按 Enter：
 
-> 請讀取 `https://github.com/dasunlin/claude-agent-starter/raw/main/SETUP.md` 的內容，然後完全照著它幫我設定。我是新手，請一步步帶我。
+> 請用 curl 取得 `https://raw.githubusercontent.com/DasunLin/claude-agent-starter/main/SETUP.md` 的原始內容（不要用會摘要的方式），然後完全照著它幫我設定。我是新手，請一步步帶我。
 
 接下來 AI 會自己 clone 這個 repo、把 agent 裝到 `~/.claude/`、再用 `/agent-setup` skill 跟你對話完成個人化。放輕鬆回答就好。
 
